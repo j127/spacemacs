@@ -189,6 +189,8 @@ Be sure to declare a environment variable named `HOME` and pointing to
 your user directory `C:\Users\<username>`. Then you can clone Spacemacs
 in this directory.
 
+Windows 8: If you've cloned the repo and Emacs doesn't download Spacemacs on restart, check whether Emacs is looking for your `.emacs.d` directory at `C:\Users\<username>\AppData\Roaming\.emacs.d\` rather than `~/.emacs.d/`.
+
 Sometimes you'll get the following error when you first start Emacs:
 
 ```
